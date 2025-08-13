@@ -1,0 +1,81 @@
+
+.user-issue-Navigate-row {
+  display: flex;
+  background-color:rgb(32, 72, 72);
+  justify-content: space-between;
+  height: 2rem;
+    font-size: larger;
+}
+.user-issue-Navigate-row p {
+  margin-top: 0.1rem;
+}
+
+.user-issue-Navigate-row div {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
+  padding-right: 1.6rem;
+}
+
+.User-issue-title{
+  padding-left: 2rem;
+}
+
+.User-show-Issue-Contaner{
+  display: flex;
+  justify-content: space-between;
+}
+.User-show-Issue-Contaner div{
+  display: flex;
+  width: 7rem;
+  padding-right: 1.7rem;
+  justify-content: space-between;
+}
+.User-issue-title-data{
+  padding-left: 1rem;
+}
+
+
+.custom-switch {
+  appearance: none;
+  width: 3rem !important;
+  height: 24px;
+  background-color: #3a3a3a;
+  border-radius: 999px;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  
+  transition: background-color 0.3s ease;
+}
+
+.custom-switch::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-switch:checked {
+  background-color: #0d6efd; 
+}
+
+.custom-switch:checked::before {
+  transform: translateX(20px);
+  background-color: #fff;
+}
+
+.popup-delete{
+  margin: 1rem 0 0 66%;
+  font-size: larger;
+  cursor: pointer;
+  width: 10rem;
+}
+.popup-delete:hover{
+color: #fff;
+}

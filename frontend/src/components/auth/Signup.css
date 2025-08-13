@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(0, 0, 0, 0.977);
+    color: beige;
+}
+
+.SignupContainer{
+   text-align: center;
+}
+.githublogo{
+    padding-top: 3rem;
+}
+.githublogo img{
+    object-fit: cover;
+    height: 4rem;
+}
+.hedding{
+    padding-top: 1rem;
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signupformcontainer{
+    padding: 1rem 0 0 0 ;
+    background-color: rgba(251, 251, 251, 0.146);
+    height: 23rem;
+    width: 20rem;
+    border-radius: 0.8rem; 
+    margin: 1rem 0 0 40%;
+}
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.signupformcontainer form input{
+    height: 2.3rem;
+    width: 16rem;
+    background-color:  rgba(0, 0, 0, 0.913);
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    margin: 0.3rem 0 1.5rem 0;
+    border: 2px solid rgba(255, 255, 255, 0.58);
+    color: white;
+    font-size: large;
+}
+button{
+    height: 2rem;
+    margin-top: 0.3rem;
+    width: 14rem;
+    color: white;
+    background-color: rgba(18, 136, 20, 0.568);
+    border-radius: 0.4rem;
+    border: none;
+}
+.text-decoration{
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+}
+.text-decoration:hover{
+    color: rgba(9, 168, 76, 0.916);
+    font-size: larger;
+}

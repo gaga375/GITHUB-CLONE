@@ -1,0 +1,97 @@
+.nav-flex{
+    height: 3rem;
+    width: 100vw;
+   background-color: rgba(0, 0, 0, 0.605);
+    display: flex;
+    color: white;
+    gap: 1rem;
+  
+}
+.nav-flex div{
+    padding: 0.4rem 0 0 1rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.nav-flex div:hover{
+    cursor: pointer;
+}
+
+
+
+.profile-container{
+    display: flex;
+    gap: 1.7rem;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.Profile-left{
+    width: 20%;
+ 
+    color: black;
+}
+
+.profile-right{
+    width: 50%;
+  
+
+    color: white;
+}
+.right-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.profile-img{
+  
+    text-align: end;
+}
+.profile-img img{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+}
+.Profile-left p{
+   text-align: end;
+   padding-right: 5rem;
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.748);
+
+}
+.extra{
+    width: 1%;
+}
+
+.profile-right p {
+    padding-left: 2rem;
+}
+
+
+.Profile-Popup-maincontainer{
+    height: 15rem;
+    width: 35rem;
+    margin: -10rem 0 0 40rem;
+    background-color: rgb(66, 181, 54);
+    display: flex;
+}
+.Profile-show-box{
+    border: 2px solid white;
+    height: 5rem;
+    border-radius: 0.3rem;
+    width: 23rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Profile-show-box-name{
+    padding: 1.7rem 0 0 2rem;
+}
+.Profile-show-box-rightConponent{
+    padding: 1.7rem 1rem 0 0 ;
+    width: 6rem;
+
+}
+.Profile-show-box-rightConponent span{
+    padding: 0 1rem 0 0;
+}

@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-main-container{
+    width: 99vw;
+    height: 4rem;
+    display: flex;
+    justify-content:space-between;
+  border-bottom: 3px solid wheat;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+.flex-1{
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    
+   
+}
+.flex div img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    padding-top: 0.5rem;
+}
+
+
+/* search */
+
+
+
+.nav-form-container form {
+  display: flex;
+  align-items: center;
+  height: 1.7rem;
+  margin-top: 0.7rem;
+  background-color: #0d1117;    
+  border: 1px solid #c8cacb;
+  border-radius: 6px;
+  padding: 6px 10px;
+  width: 15rem;
+}
+
+.nav-form-container i {
+  color: #8b949e;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.nav-form-container input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #c9d1d9;
+  font-size: 14px;
+padding-top: 7%;
+  width: 70%;
+}
+
+.nav-form-container input::placeholder {
+  color: #8b949e;
+}
+
+
+/* end */
+
+.nav-3line{
+    height: 2.6rem;
+    width: 2.8rem;
+    margin-top: 0.4rem;
+    margin-left: 1.6rem;
+    padding: 0.5rem 0 0 0.3rem;
+    border: 2px solid #ffebeb;
+    border-radius: 0.6rem;
+    opacity: 0.8;
+}
+.nav-3line i {
+font-size: xx-large;
+}
+.nav-username{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+
+.nav-profile img{
+    height: 2.9rem;
+    width: 2.9rem;
+    margin-top: 0.5rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+.nav-plusicon{
+   height: 2rem;
+    width: 2.7rem;
+    margin-top: 0.7rem;
+    padding: 0.5rem 0 0 0;
+    border: 2px solid #ffebeb;
+    border-radius: 0.6rem;
+    opacity: 0.8;
+}
+.nav-plusicon i{
+    font-size: x-large;
+    padding-left: 0.4rem;
+}
+.tolltip-text{
+   margin-left: -1.6rem;
+ background-color: #555;
+  visibility: hidden;
+  width: 6rem;
+  color: #ffffff;
+  height: 1.6rem;
+  text-align: center;
+  border-radius: 0.6rem;
+}
+
+.nav-plusicon:hover .tolltip-text{
+visibility: visible;
+}
+.active{
+    color: #fff !important;
+    opacity: 1;
+}
+
+.Navbar-Sidebar-container {
+  background-color: #1e1e1e;
+  width: 22%;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  margin: 0.4rem 0 0 0.2rem;
+  left: -25%;
+  transition: left 0.3s ease;
+}
+
+.sidebar-visibility {
+  left: 0;
+}
+
+.Navbar-top-container{
+  display: flex;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+}
+.Navbar-top-container div{
+  padding: 0.8rem 1rem 0 1.6rem;
+}
+.Navbar-top-container div img{
+height: 1.6rem;
+width: 1.6rem;
+}
+
+.disabled{
+opacity: 0.6;
+}
+
+.Navbar-top-container div i{
+  background-color: rgba(119, 119, 119, 0.529);
+  font-size:larger ;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+}
+
+.Navbar-Body-container{
+  padding-left: 1rem;
+  font-size: larger;
+}
+.Navbar-Body-container div{
+  width: 85%;
+  background: #222;
+  padding: 20px;
+  margin-bottom: 0.3rem;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  position: relative;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
+}
+
+.Navbar-Body-container div:hover{
+  transform: scale(1.05);
+}
+
+.Navbar-Body-container div::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(45deg, #ff6b6b, #ffd93d, #6bcfff ,#33d530);
+  background-size: 300% 300%;
+  animation: borderAnim 4s linear infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+   mask-composite: exclude;
+}
+
+@keyframes borderAnim {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

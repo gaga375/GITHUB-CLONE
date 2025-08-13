@@ -1,0 +1,46 @@
+
+.issue-Contaner{
+  width: 60vw;
+ margin: 3rem 0 0 18%;
+border: 2px solid #fff;
+border-radius: 7px;
+}
+.issue-Contaner-Navbar{
+    width: 98%;
+    height: 2rem;
+    padding: 0.7rem 0 0 1rem;
+    font-size: larger;
+    font-weight:500 ;
+    background-color: rgba(255, 255, 255, 0.092);
+}
+.issue-Contaner hr{
+    margin-bottom: 0;
+}
+.issue-Navigate-row{
+    display: flex;
+    background-color: rgb(32, 72, 72);
+    justify-content: space-between;
+    height: 2rem;
+    font-size: larger;
+}
+.issue-Navigate-row p{
+margin-top: 0;
+}
+.show-Issue-Contaner{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.issue-title{
+    padding-left: 4.5rem;
+}
+.issue-status{
+    padding-right: 4rem;
+}
+.issue-noDataFound{
+    height: 5rem;
+    padding: 7% 0 0 40%;
+    font-size: x-large;
+    font-weight: 500;
+}

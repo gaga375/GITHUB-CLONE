@@ -1,0 +1,123 @@
+.container-body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgba(1, 1, 16, 0.521);
+}
+.left-container{
+    height: 100vh;
+    width: 22%;
+    background-color: rgba(40, 51, 72, 0.652);
+    border-radius: 3px;
+}
+.left-flex{
+    display: flex;
+    padding-top: 2rem;
+}
+.recent-profile-flex{
+    display: flex;
+}
+.user-photo{
+    padding-top: 0.4rem;
+}
+.user-photo img{
+height: 1.5rem;
+width: 1.6rem;
+border-radius: 50%;
+object-fit: cover;
+padding: 0 1rem 0 1rem;
+}
+.username{
+    font-size: larger;
+    border: 1px solid white;
+    padding: 0.3rem 0.9rem 0 0.9rem;
+    border-radius: 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    padding:2rem 0 0 2rem;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-form input{
+height: 1.8rem;
+width: 70%;
+font-size: 1rem;
+margin: 1rem 0 0 1.4rem;
+}
+.recent-userprofile img{
+height: 1rem;
+width: 1rem;
+border-radius: 50%;
+object-fit: cover;
+}
+.recent-userprofile{
+padding: 0.9rem 0.6rem 0 1rem;
+}
+.recent-username{
+    padding: 0.8rem 0 0 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+border: 1px solid rgba(50, 89, 144, 0.696);
+}
+
+
+
+/* midle  */
+
+
+.midle-container{
+   margin-left: 0.5rem;
+    height: 100vh;
+    width: 55%;
+    background-color: rgba(23, 39, 39, 0.467);
+}
+.m-heding{
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 1.5rem 0 0 3rem;
+}
+
+.card{
+    border: 1px solid white;
+    width: 65%;
+    border-radius: 2px;
+    margin: 2rem 0 0.3rem 3rem;
+    padding: 0 0 0 0.6rem;
+    background-color: rgba(0, 0, 0, 0.189);
+}
+.card p{
+    font-size:1rem;
+    margin-top: 0;
+}
+h2{
+    margin:0.4rem 0 0.2rem 0 ;
+}
+
+
+
+/* right-container */
+
+.right-container{
+    text-align: center;
+    height: 100vh;
+    width: 22%;
+    
+}
+.rignt-heding{
+    text-align: center;
+    font-size: xx-large;
+     font-family:Arial, Helvetica, sans-serif;
+    padding: 40% 0 0 0 ;
+    opacity: 0.5;
+}
+.rignt-icon{
+    padding-top: 3rem;
+}
+.rignt-icon i {
+font-size: 6rem;
+ opacity: 0.5;
+}

@@ -1,0 +1,358 @@
+.view-nav-1{
+    height: 2.8rem;
+    width: 100vw;
+    background-color: rgba(211, 211, 211, 0.14);
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid white;
+}
+
+.tab-button {
+  position: relative;
+  background: none;
+  width: 7rem;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.tab-button:hover {
+  color: orange;
+}
+
+.tab-button.active {
+  color: orange;
+}
+
+.tab-button.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: orange;
+}
+
+.view-nav-2{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.navflex{
+    display: flex;
+    width: 17rem;
+    padding-top: 1.2rem;
+    justify-content: space-evenly;
+
+}
+.view-nav-2{
+    height: 5rem;
+}
+
+.view-profile img{
+height: 2.4rem;
+width: 2.4rem;
+border-radius: 50%;
+object-fit: cover;
+}
+.view-username{
+    font-size: x-large;
+    font-weight: 600;
+}
+.nav-2-rignt-1{
+    height: 2rem;
+    width: 6.5rem;
+    border: 1px solid blanchedalmond;
+    border-radius: 0.6rem;
+    color: #ffffff4d;
+    background-color: #ffffff19;
+    padding: 0.3rem 0 0 0.6rem;
+
+}
+.nav-2-rignt-2{
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid blanchedalmond;
+    border-radius: 0.6rem;
+    color: #ffffff4d;
+    background-color: #ffffff19;
+    padding: 0.3rem 0 0 0.4rem;
+
+}
+.nav-2-rignt-3{
+    height: 2rem;
+    width: 4rem;
+    cursor: pointer;
+    border: 1px solid blanchedalmond;
+    background-color: #ffffff19;
+    border-radius: 0.6rem;
+    padding: 0.3rem 0 0 0.4rem;
+
+}
+.navflex-2{
+     display: flex;
+    width: 20rem;
+    padding-top: 1.2rem;
+    justify-content: space-evenly;
+}
+
+
+.view-body{
+  display: flex;
+justify-content: space-evenly;
+padding-top: 3rem;
+}
+
+.view-body-left{
+  border: 1px solid white;
+  width: 35%;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+}
+.view-body-right{
+  width: 35%;
+  border: 1px solid white;
+   border-radius: 0.6rem;
+   padding: 0.6rem;
+}
+
+.view-logo{
+padding-left: 0.9rem;
+margin-bottom: 0;
+}
+
+.view-logo i {
+font-size: xx-large;
+}
+
+.view-heading{
+  font-size: x-large;
+  padding-left: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+.view-description{
+  font-size: 1rem;
+}
+
+.view-body-right div{
+  background-color: rgba(80, 102, 102, 0.284);
+height: 2rem;
+padding-top: 0.3rem;
+width: 11rem;
+text-align: center;
+border-radius: 0.8rem;
+}
+
+.view-body-left div{
+  background-color: rgba(80, 102, 102, 0.284);
+height: 2rem;
+padding-top: 0.3rem;
+width: 11rem;
+text-align: center;
+border-radius: 0.8rem;
+}
+
+.view-main-body{
+  width: 98%;
+  margin-left: 1%;
+  background-color: rgba(11, 11, 41, 0.312);
+  border: 1px solid white;
+  border-radius: 0.6rem;
+ margin-top: 3rem;
+}
+
+.view-top-heading{
+  padding-left: 1rem;
+  font-size: x-large;
+  color: #fff;
+  font-weight:500;
+}
+
+.view-main-https{
+  width: 35%;
+  display: flex;
+}
+.view-main-https p{
+padding: 0.2rem 0.7rem 0.3rem 0.7rem;
+margin-left: 1rem;
+border-radius: 0.9rem;
+background-color:rgba(80, 102, 102, 0.284);
+}
+.view-main-https div{
+  padding: 1.2rem 0.7rem 0.3rem 0.7rem;
+margin-left: 1rem;
+}
+
+.view-main-url{
+background-color: rgba(0, 0, 0, 0.575);
+width: 83%;
+height: 2.2rem;
+padding: 0.4rem 0 0 0.8rem;
+margin-left: 1rem;
+color: #fff;
+border-radius: 1rem;
+}
+
+.view-form-containe{
+  padding-left: 1rem;
+  color: #fff;
+}
+
+.view-body-bottum{
+  background-color: rgba(0, 0, 0, 0.858);
+  padding-bottom: 3rem;
+}
+.view-body-bottum-heading{
+padding: 0.8rem 0 0 1rem;
+font-size: x-large;
+color: #fff;
+font-weight: 500;
+}
+
+.view-body-code{
+  background-color: rgba(61, 59, 59, 0.333);
+  margin-left: 1.3rem;
+ padding: 0.3rem 0 0.3rem 0.8rem;
+  width: 96%;
+  border-radius: 0.7rem;
+}
+
+.view-body-code p{
+  font-size: small;
+  line-height: 0.4rem;
+}
+
+
+/* code file */
+
+.view-code-maincontainer{
+width: 70%;
+margin-left: 14%;
+height: 10rem;
+padding-top: 1.5rem;
+
+}
+
+.view-code-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.view-code-nav div p {
+margin: 0;
+font-size: large;
+width: 3rem;
+padding: 0;
+}
+.view-code-nav-left div{
+  display: flex;
+}
+.view-code-nav-left{
+
+background-color: rgba(217, 217, 219, 0.177);
+height: 2rem;
+text-align: center;
+padding-top: 0.4rem;
+width: 6rem;
+border-radius: 0.6rem;
+}
+.fa-code-branch{
+  padding-top: 0.5rem;
+  padding-left: 0.4rem;
+}
+
+.view-code-nav-right{
+height: 2.4rem;
+display: flex;
+width: 12.5rem;
+
+}
+.view-code-addFile{
+  padding: 0.4rem 0.6rem 0 0.5rem;
+background-color: rgba(217, 217, 219, 0.177);
+margin-left: 0.4rem;
+font-size: large;
+border-radius: 0.6rem;
+}
+
+.code-container{
+margin-top: 2rem;
+border-radius: 1rem;
+padding: 1rem 0 1rem 0 ;
+  height: 20rem;
+  border: 1px solid rgba(255, 255, 255, 0.666);
+}
+.code-file{
+  height: 1.8rem;
+  width: 100%;
+  padding-top: 0.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.558);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.66);
+  margin-bottom: 0.5rem;
+  font-size: large;
+  background-color: rgba(248, 248, 248, 0.033);
+}
+.code-file i{
+  padding: 0 2rem 0 1rem;
+  font-size: large;
+}
+.view-code-addFile:hover{
+  cursor: pointer;
+}
+
+.starred {
+background-color: rgba(255, 255, 32, 0.949);
+color: rgba(0, 0, 0, 0.718);
+}
+
+/* popup window */
+.mini-popup {
+  position: absolute;
+  top: 18rem;
+  right: 10rem;
+   background-color: #21262d;
+  border: 1px solid #30363d;
+  padding: 2rem;
+  border-radius: 6px;
+  width: 30rem;
+  color: #c9d1d9;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.mini-popup input,
+.mini-popup textarea {
+  width: 95%;
+ background-color: #0d1117; 
+  color: #c9d1d9; 
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.mini-popup textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.mini-popup button {
+ background-color: #2ea043; 
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mini-popup button:hover {
+  background-color: #238636;
+}
+
+.isOwner{
+visibility: hidden !important;
+}
