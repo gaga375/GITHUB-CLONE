@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import {useNavigate , useRoutes} from "react-router-dom";
 
 // All Pages 
-import CreateRepo from './components/createRepo/CreateRepo'
+import CreateRepo from './components/createRepo/CreateRepo';
 import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
 import Dashboard from './components/dashboard/Dashboard';
