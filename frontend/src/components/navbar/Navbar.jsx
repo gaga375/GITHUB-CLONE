@@ -24,7 +24,7 @@ let handleSubmit = async (e)=>{
 if(! searchQueary.trim()) return;
 
 try{
-let responce = await axios.get(`http://localhost:8080/repositoriesname/${searchQueary}`)
+let responce = await axios.get(`https://github-clone-s7w9.onrender.com/repositoriesname/${searchQueary}`)
 if(! responce.data.success) return onSearch(false);
 onSearch(responce.data.data)
 }catch(e){
@@ -63,7 +63,7 @@ useEffect(()=>{
 
    async function userCall (){
     try{
-let responce =  await axios.get(`http://localhost:8080/userProfile/${id}`);
+let responce =  await axios.get(`https://github-clone-s7w9.onrender.com/userProfile/${id}`);
 setUsername(responce.data.user.username)
 localStorage.setItem('username',responce.data.user.username)
     }

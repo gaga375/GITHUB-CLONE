@@ -39,7 +39,7 @@ let updatePayload = {};
         async function fetchUserIssuse() {
         try{
              setLoading(true)
-            let responsc = await axios.get(`http://localhost:8080/issue/user/${repoid}`) 
+            let responsc = await axios.get(`https://github-clone-s7w9.onrender.com/issue/user/${repoid}`) 
             if(responsc.data.data.length >= 1){
               setAllUserIssuse(responsc.data.data)
               setLoading(false)
@@ -67,7 +67,7 @@ if( !reponame[0].title){
   if(userResponse !== reponame[0].title){
    return alert('Repo Name Not Match')
   }
-let responsc = await axios.get(`http://localhost:8080/issue/delete/${currentIssueId}`)
+let responsc = await axios.get(`https://github-clone-s7w9.onrender.com/issue/delete/${currentIssueId}`)
 if( ! responsc.data.success){
 alert(responsc.data.message)
 }
@@ -91,7 +91,7 @@ if(issueDiscription.trim() !==""){
 
 updatePayload.status = isChecked ? "closed": "open";
 
- let responsc = await axios.post(`http://localhost:8080/issue/update/${currentIssueId}`,updatePayload)
+ let responsc = await axios.post(`https://github-clone-s7w9.onrender.com/issue/update/${currentIssueId}`,updatePayload)
 alert(responsc.data.message)
 setIssueDiscription('')
 setIssueTitle('')

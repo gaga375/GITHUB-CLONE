@@ -27,7 +27,7 @@ alert("all feld is required")
 try{
     setLoading(true)
 
-    let responce = await axios.post("http://localhost:8080/user/register",{
+    let responce = await axios.post("https://github-clone-s7w9.onrender.com/user/register",{
         username,
         password,
         email

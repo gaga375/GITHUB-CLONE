@@ -30,7 +30,7 @@ useEffect(()=>{
         try{
 
         let id = localStorage.getItem('userID')
-        let responce = await axios.get(`http://localhost:8080/userrepo/${id}`)
+        let responce = await axios.get(`https://github-clone-s7w9.onrender.com/userrepo/${id}`)
         setAllRepoForUser(responce.data.data)
         setLoading(false)
 
@@ -48,7 +48,7 @@ useEffect(()=>{
 async function alldatafetch (){
     setLoading_2(true)
 try{
-let responce = await axios.get("http://localhost:8080/allrepofetch")
+let responce = await axios.get("https://github-clone-s7w9.onrender.com/allrepofetch")
  setAllrepo(responce.data.data)
  setLoading_2(false)
 }catch(e){

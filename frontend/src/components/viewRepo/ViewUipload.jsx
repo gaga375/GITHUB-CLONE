@@ -19,7 +19,7 @@ useEffect(() => {
   async function fetchRepoData() {
     try {
       setLoading(true);
-      let res = await axios.get(`http://localhost:8080/upload/${repoid}`);
+      let res = await axios.get(`https://github-clone-s7w9.onrender.com/upload/${repoid}`);
       if (res.data.success) {
         setCodeFile(res.data.data);
       }
@@ -47,7 +47,7 @@ useEffect(() => {
  
     setUploading(true);
     try {
-      const res = await axios.post('http://localhost:8080/upload', formData);
+      const res = await axios.post('https://github-clone-s7w9.onrender.com/upload', formData);
       if(res.status){
         alert('upload successful')
         window.location.reload();

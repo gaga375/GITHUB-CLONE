@@ -37,7 +37,7 @@ useEffect(()=>{
        let id = localStorage.getItem('userID')
  try{
     setLoading(true)
-        let responce = await axios.get(`http://localhost:8080/userrepo/${id}`)
+        let responce = await axios.get(`https://github-clone-s7w9.onrender.com/userrepo/${id}`)
         if(! responce.data.success){
         alert('something went wrong')
         }
@@ -76,7 +76,7 @@ if(content.trim()!==""){
 updatePayload.visibility = visibility
 
 try{
-    let responce = await axios.post(`http://localhost:8080/repositori/update/${currentRepoid}`,updatePayload)
+    let responce = await axios.post(`https://github-clone-s7w9.onrender.com/repositori/update/${currentRepoid}`,updatePayload)
     alert(responce.data.message)
     }
 catch(e){
@@ -96,7 +96,7 @@ let userResponse = prompt(`pleese enter Repository "${reponame[0].name} " for de
  if(userResponse !== reponame[0].name){
    return alert('Repo Name Not Match')
   }
-let responce = await axios.get(`http://localhost:8080/repositories/delete/${currentRepoid}`)
+let responce = await axios.get(`https://github-clone-s7w9.onrender.com/repositories/delete/${currentRepoid}`)
 if(responce.data.success){
   alert('Repository delete successfully')
 }

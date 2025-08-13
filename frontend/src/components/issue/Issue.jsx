@@ -17,7 +17,7 @@ export default function Issue(){
      useEffect(()=>{
         async function repositoryData() {
           try{
-            let responce = await axios.get(`http://localhost:8080/repositories/${repoid}`)
+            let responce = await axios.get(`https://github-clone-s7w9.onrender.com/repositories/${repoid}`)
             setReponame(responce.data.data.name)
         }
         catch(e){
@@ -27,7 +27,7 @@ export default function Issue(){
 
      async function issueData() {
       try{
-        let responce = await axios.get(`http://localhost:8080/issue/${repoid}`)
+        let responce = await axios.get(`https://github-clone-s7w9.onrender.com/issue/${repoid}`)
      setAllIssue(responce.data.data)
      }
      catch(e){

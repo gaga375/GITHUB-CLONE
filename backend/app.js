@@ -15,7 +15,6 @@ let pullCom = require('./controllers/pull');
 let addrepo = require('./controllers/add');
 let revertCom = require('./controllers/revert')
 let pushCom = require('./controllers/push');
-const { Socket } = require('dgram');
 let mainRouts = require('./Routs/mainRouts')
 
 
@@ -53,12 +52,6 @@ function start(){
         })
     
 }
-
-
-
-
-
-
 
 
 

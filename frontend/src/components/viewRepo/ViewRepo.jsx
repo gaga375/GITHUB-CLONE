@@ -42,7 +42,7 @@ export default function ViewRepo() {
     async function fetchData() {
       try {
         setLoading(true);
-        let res = await axios.get(`http://localhost:8080/upload/${repoid}`);
+        let res = await axios.get(`https://github-clone-s7w9.onrender.com/upload/${repoid}`);
         setRepoOwner(res.data.RepoOwner);
         if (res.data.success) setCodeFile(res.data.data);
       } catch (err) {
@@ -58,7 +58,7 @@ export default function ViewRepo() {
   const handleIssueSubmit = async (e) => {
     e.preventDefault();
     try {
-      let res = await axios.post('http://localhost:8080/issue/create', {
+      let res = await axios.post('https://github-clone-s7w9.onrender.com/issue/create', {
         title: issueTitle,
         discription: issueDiscription,
         Repository: repoid,
@@ -83,7 +83,7 @@ export default function ViewRepo() {
 
     try {
       setUploading(true);
-      let res = await axios.post('http://localhost:8080/upload', formData);
+      let res = await axios.post('https://github-clone-s7w9.onrender.com/upload', formData);
       if (res.status) {
         alert('Upload successful');
         window.location.reload();
