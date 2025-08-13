@@ -6,7 +6,7 @@ import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
 import Dashboard from './components/dashboard/Dashboard';
 import Profile from "./components/profile/Profile";
-import CreateRepo from './components/CreateRepo/CreateRepo';
+import CreateRepo from "./components/CreateRepo/CreateRepo.jsx";
 import UserIssue from "./components/userIssue/UserIssue";
 import Issue from "./components/issue/Issue";
 import ViewRepo from "./components/viewRepo/ViewRepo";
